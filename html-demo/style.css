@@ -1,1 +1,74 @@
 /* TODO: design your profile with CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: 'Open Sans';
+    background-color: rgb(240,240,240);
+}
+
+h1,h2 {
+    font-family: 'Poppins';
+}
+
+h1 {
+    color:darkslateblue;
+}
+
+h2 {
+    color:cadetblue;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: indigo;
+}
+
+a:hover {
+    color:slateblue;
+}
+
+
+.card-white {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 500px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.img-circle {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.button {
+    background-color: slateblue;
+    color: white;
+    padding:  8px 24px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color:rebeccapurple;
+    color: white;
+    padding:  8px 24px;
+    border-radius: 8px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.social-icon {
+    font-size: 32px;
+    padding: 8px;
+}
